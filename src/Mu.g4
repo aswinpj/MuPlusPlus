@@ -92,7 +92,7 @@ NIL : 'nil';
 IF : 'if';
 ELSE : 'else';
 WHILE : 'while';
-LOG : 'log';
+LOG : 'print';
 
 ID
  : [a-zA-Z_] [a-zA-Z_0-9]*

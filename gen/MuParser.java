@@ -34,7 +34,7 @@ public class MuParser extends Parser {
 		null, "'||'", "'&&'", "'=='", "'!='", "'>'", "'<'", "'>='", "'<='", "'+'", 
 		"'-'", "'*'", "'/'", "'%'", "'^'", "'!'", "';'", "'='", "'('", "')'", 
 		"'{'", "'}'", "'true'", "'false'", "'nil'", "'if'", "'else'", "'while'", 
-		"'log'"
+		"'print'"
 	};
 	private static final String[] _SYMBOLIC_NAMES = {
 		null, "OR", "AND", "EQ", "NEQ", "GT", "LT", "GTEQ", "LTEQ", "PLUS", "MINUS", 

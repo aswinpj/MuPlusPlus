@@ -60,4 +60,4 @@ OTHER=35
 'if'=25
 'else'=26
 'while'=27
-'log'=28
+'print'=28
