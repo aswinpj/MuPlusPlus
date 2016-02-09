@@ -21,6 +21,12 @@ public class EvalVisitor extends MuBaseVisitor<Value> {
     }
 
     @Override
+    public Value visitFunction_stat(MuParser.Function_statContext ctx) {
+        // Insert Function Statements here
+        return null;
+    }
+
+    @Override
     public Value visitIdAtom(MuParser.IdAtomContext ctx) {
         String id = ctx.getText();
         Value value = memory.get(id);
