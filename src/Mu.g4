@@ -9,12 +9,16 @@ block
  ;
 
 stat
- : assignment
+ :function_stat
+ |assignment
  | if_stat
  | while_stat
  | log
  | OTHER {System.err.println("unknown char: " + $OTHER.text);}
  ;
+
+function_stat
+    : 'function' ID '(' ((ID|INT)','?)* ')' stat_block;
 
 assignment
  : ID ASSIGN expr SCOL
