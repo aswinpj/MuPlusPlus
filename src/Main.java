@@ -11,8 +11,6 @@ public class Main {
             args = new String[]{"src/test.mu"};
         }
 
-        System.out.println("parsing: " + args[0]);
-
         MuLexer lexer = new MuLexer(new ANTLRFileStream(args[0]));
         MuParser parser = new MuParser(new CommonTokenStream(lexer));
         ParseTree tree = parser.parse();
