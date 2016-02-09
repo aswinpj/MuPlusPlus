@@ -28,6 +28,12 @@ public interface MuVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitStat(MuParser.StatContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link MuParser#function_stat}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitFunction_stat(MuParser.Function_statContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link MuParser#assignment}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

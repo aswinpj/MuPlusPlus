@@ -51,6 +51,18 @@ public class MuBaseListener implements MuListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterFunction_stat(MuParser.Function_statContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitFunction_stat(MuParser.Function_statContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterAssignment(MuParser.AssignmentContext ctx) { }
 	/**
 	 * {@inheritDoc}

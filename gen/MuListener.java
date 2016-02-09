@@ -37,6 +37,16 @@ public interface MuListener extends ParseTreeListener {
 	 */
 	void exitStat(MuParser.StatContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link MuParser#function_stat}.
+	 * @param ctx the parse tree
+	 */
+	void enterFunction_stat(MuParser.Function_statContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MuParser#function_stat}.
+	 * @param ctx the parse tree
+	 */
+	void exitFunction_stat(MuParser.Function_statContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link MuParser#assignment}.
 	 * @param ctx the parse tree
 	 */
